@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap');
+        
+body {
+    margin: 0;
+}
+
+        .container-1 {
+            display: flex;
+            justify-content: space-evenly;
+            background-color:#03384f;
+            align-items: center;
+            padding: 10px;
+            
+        } 
+
+      
+        .container-1 div {
+            padding: 30px;
+        }
+        
+   
+        .social-media-links {
+            display: block;
+            text-decoration: none;
+            color: #cfcfcf;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 15px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            transition: all 0.3s;
+        }
+
+        .social-media-links:hover {
+            color: #ffffff;
+        }
+
+        .footer-links {
+            text-decoration: none;
+            display: block;
+            color: #cfcfcf;
+            font-family: 'EB Garamond', serif;
+            text-transform: uppercase;
+            line-height: 1.8;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+
+        .footer-links:hover {
+            
+            color: #ffffff;
+           
+        }
+     
+        
+        .h2-white {
+            color:#ffffff;
+            font-size: 2.188rem;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+      
+        
+         .tel-link {
+            text-decoration: none;
+             display: block;
+             transition: color 0.3s;
+             color:#cfcfcf;
+             font-family: 'Montserrat', sans-serif;
+             
+            }
+
+
+        .tel-link:hover {
+            color: #ffffff;
+            
+        }
+
+        .email-link {
+            text-decoration: none;
+             display: block;
+             transition: color 0.3s;
+             color:#cfcfcf;
+             font-family: 'Montserrat', sans-serif;
+             margin-top: 10px;
+            }
+
+            .email-link:hover {
+                color: #ffffff;
+            }
+
+
+            .facebook-social {
+            color: #03384f;
+            margin-right: 8px;
+            background: #cfcfcf;
+            border-radius: 50%;
+            padding-right: 1.5px;
+            padding-left: 2px;
+            padding-top: 1.5px;     
+                
+    
+        }
+
+       
+
+        .instagram-social {
+            color: #cfcfcf;
+            margin-right: 8px;
+        }
+        
+        .paragraph-text {
+            
+            color:#cfcfcf;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 0.7;
+        }
+        
+        .logo {
+            max-width: 100%;
+            height: auto;
+            width: 150px;
+            filter: brightness(0) invert(1);
+            opacity: 90%;
+            
+            
+            
+          
+        }
+
+        .bottom-footer-text {
+            display: inline-block;
+            margin-right: 30px;
+            color: #cfcfcf;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .bottom-blue-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background: #03384f;
+        padding: 10px;
+    }
+
+    .text-container {
+    border-top: 1px solid #ffffff1c;
+}
+
+ 
+
+        .jonas-link {
+            text-decoration: none;
+            color: #cfcfcf;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .jonas-link:hover {
+            
+            color: #ffffff;
+            
+        }
+        
+        /* small tablets to big tablets : from 768px to 1032px */
+        @media only screen and (max-width: 1023px) {
+            .container-1 {
+                flex-direction: column;
+                justify-content: center;
+                align-items:center;
+                
+                
+                
+            }
+            
+            .logo {
+                width: 500px;
+            }
+            
+            .short-text {
+            max-width:420px;
+            line-height: 100%;
+            
+            
+        }
+            
+            
+        }
+            
+        /* small phones to small tablets: from 481px to 767px */
+        @media only screen and (max-width: 767px) {
+            .container-1 {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            
+            .logo {
+                width: 500px;
+            }
+            
+            .text-container {
+             text-align: center;
+            }
+            
+          
+            
+        }   
+     
+</style>
+
+</head>
+
+
+<body>
+    
+
+    <div class="container-1">
+        <div class="box-1">
+            <img class="logo" src="images/uclub-blue-logo.png" alt="tee-it-up-logo">
+        </div>
+        <div class="box-2">
+            <p class="paragraph-text">219 Benefit Street</p>
+            <p class="paragraph-text">Providence, RI 02903</p>
+            <a class="tel-link" href="tel:360-886-7121" target="_blank">(401) 331-3230</a>
+            <a class="email-link" href="mailto:uclubemail@uclub.com" target="_blank">uclubemail@uclub.com</a>
+            
+        </div>
+        <div class="box-3">
+            <a href="#" class="social-media-links"><i class="fa fa-facebook facebook-social" aria-hidden="true">&nbsp;</i>&#64uclubprov</a>
+            <a href="#" class="social-media-links"><i class="fa fa-instagram instagram-social" aria-hidden="true">&nbsp;</i>&#64uclubprov</a>
+        </div>
+        <div class="box-3">
+            <a href="#" class="footer-links">Contact Us</a>
+            <a href="#" class="footer-links">Membership Inquiry</a>
+            <a href="#" class="footer-links">Member Login</a>
+        </div>
+
+        
+    </div>
+   
+    <div class="bottom-blue-nav">
+        <div class="text-container">
+            <p class="bottom-footer-text">Copyright &#169; 2021. The Univeristy Club. All Rights Reserved</p>
+            <p class="bottom-footer-text">Powered by <a class="jonas-link" href="#" target="blank">Jacob Club Software</a></p>
+        </div>
+    </div>
+    
+
+</body>
+
+
+
+
+</html>
